@@ -1,9 +1,12 @@
-PRODUCT_PACKAGES += libqdMetaData.system \
+PRODUCT_PACKAGES += libqdMetaData \
+                    libqdMetaData.system \
+                    libgralloc.qti \
                     libgralloc.system.qti \
                     libdrm \
                     liblayerext.qti \
                     libsmomoconfig.qti \
                     libcomposerextn.qti \
+                    libdisplayconfig.qti \
                     libdisplayconfig.system.qti
 
 SOONG_CONFIG_NAMESPACES += qtidisplaycommonsys
